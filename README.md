@@ -12,14 +12,14 @@ A ZSH plugin that uses OpenAI's GPT to generate shell commands based on natural 
 ### Using Antigen
 
 ```zsh
-antigen bundle aptula/zsh-ai-completions
+antigen bundle jameshyphen/zsh-ai-completions
 ```
 
 ### Using Oh My Zsh
 
 1. Clone this repository into your custom plugins directory:
 ```zsh
-git clone https://github.com/aptula/zsh-ai-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-ai-completions
+git clone https://github.com/jameshyphen/zsh-ai-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-ai-completions
 ```
 
 2. Add the plugin to your `.zshrc`:
@@ -31,7 +31,7 @@ plugins=(... zsh-ai-completions)
 
 1. Clone this repository:
 ```zsh
-git clone https://github.com/aptula/zsh-ai-completions
+git clone https://github.com/jameshyphen/zsh-ai-completions
 ```
 
 2. Add the following to your `.zshrc`:
